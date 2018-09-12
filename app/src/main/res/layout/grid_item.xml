@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res-auto"
+    android:layout_width="40dp"
+    android:layout_height="80dp"
+    android:layout_gravity="fill"
+    android:layout_margin="2dp"
+    android:background="@drawable/keepcard"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:padding="16dp"
+    grid:layout_columnWeight="1">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="32sp" />
+</FrameLayout>
